@@ -1,0 +1,21 @@
+{
+    "name": "tusharugale/yii2-mail-templates",
+    "description": "Create and Edit mail templates",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Tushar Ugale",
+            "email": "tushar1035@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tusharugale\\mailtemplates\\": ""
+        }
+    }
+}
