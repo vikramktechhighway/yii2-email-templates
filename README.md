@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tusharugale/yii2-mail-templates "*"
+php composer.phar require --prefer-dist tusharugale/yii2-email-templates "*"
 ```
 
 or add
 
 ```
-"tusharugale/yii2-mail-templates": "*"
+"tusharugale/yii2-email-templates": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -34,10 +34,11 @@ $config['modules']['mailtemplates'] = [
 ```
 
 
+
 Create tables by running following migration command
 
 ```php
-php yii migrate --migrationPath=@vendor/tusharugale/yii2-mail-templates/migrations/
+php yii migrate --migrationPath=@vendor/tusharugale/yii2-email-templates/migrations/
 ```
 
 
