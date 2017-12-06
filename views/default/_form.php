@@ -65,7 +65,7 @@ use yii\widgets\ActiveForm;
 	</div>
 </div>
 <?php
-// $this->registerJsFile('../vendor/tusharugale/yii2-mail-templates/assets/js/jquery_validate.js');
+// $this->registerJsFile('../vendor/tusharugale/yii2-email-templates/assets/js/jquery_validate.js');
 $search ="
 	$('#btn_constant_add').click(function(e)
 	{
@@ -137,7 +137,7 @@ $search ="
     });
    ";
 $this->registerJs($search);
-////$this->registerJsFile('../vendor/tusharugale/yii2-mail-templates/assets/js/jquery.js');
+////$this->registerJsFile('../vendor/tusharugale/yii2-email-templates/assets/js/jquery.js');
 // $('.constant_key').each(function(){
 //         $(this).rules('add', {
 //            required: true,
